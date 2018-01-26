@@ -113,7 +113,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #212529;
+  color: grey;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
