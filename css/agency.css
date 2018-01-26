@@ -60,19 +60,21 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
+  font-size: 12px;
+  padding: 10px 20px;
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: transparent;
+  border-color: White;
+  border-width: 5px;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: white;
+  background-color: transparent;
+  border-color: black !important;
+  color: black;
+  border-width: 5px;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -113,7 +115,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: grey;
+  color: white;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -184,10 +186,9 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -204,11 +205,11 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
     line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -432,19 +433,19 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#stats {
-  background-color: #EAD6F5;
+  background-color: white;
 }
 
 section#ourmission {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
 }
 
 section#ourproduct {
-  background-color: #ccccff;
+  background-color: white;
 }
 
 section#team {
-  background-color: #f2e5f2;
+  background-color: #fafafa;
 }
 
 section#contact {
