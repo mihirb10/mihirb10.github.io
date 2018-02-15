@@ -72,8 +72,8 @@ section h3.section-subheading {
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: transparent;
-  border-color: black !important;
-  color: black;
+  border-color: #b8bec0 !important;
+  color: #b8bec0 !important;
   border-width: 5px;
 }
 
@@ -134,6 +134,13 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
+}
+
+a#prototypebutton1{
+  font-size: 90%;
+  letter-spacing: 1px;
+  padding: 1px 2px;
+  padding-top: 2px:
 }
 
 @media (min-width: 992px) {
@@ -436,16 +443,23 @@ section#stats {
   background-color: white;
 }
 
-section#ourmission {
+section#mission {
   background-color: #fafafa;
 }
 
-section#ourproduct {
+section#prototype {
   background-color: white;
 }
 
 section#team {
   background-color: #fafafa;
+}
+
+a#prototypebutton2{
+  background-color: transparent;
+  border-color: black;
+  border-width: 5px;
+  color: black;
 }
 
 section#contact {
