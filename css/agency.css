@@ -1,3 +1,46 @@
+
+.animation-frame {
+    position: relative;
+    margin-top: -100px;
+    padding-bottom: 50px;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.animation-video {
+    height: 476px;
+    margin-left: -324px;
+    position: relative;
+    top: 186px;
+    width: 340px;
+    padding-bottom: 50px;
+
+}
+
+
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -194,7 +237,7 @@ header.masthead .intro-text {
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -208,14 +251,14 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 60px;
     font-weight: bold;
     line-height: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
@@ -460,6 +503,20 @@ a#prototypebutton2{
   border-color: black;
   border-width: 5px;
   color: black;
+}
+
+p#Instructions{
+  color: white;
+  text-align: left;
+  margin-bottom: 2px;
+  margin-left: 60px;
+}
+
+p#InstructionsLast{
+  color: white;
+  text-align: left;
+  margin-bottom: 60px;
+  margin-left: 60px
 }
 
 section#contact {

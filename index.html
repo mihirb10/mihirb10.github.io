@@ -40,8 +40,6 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#stats">Stats</a>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#mission">Mission</a>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#betatest">Beta Test</a>
@@ -63,9 +61,26 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Let's chat about money...</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#stats">Find out more</a>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="intro-text">
+              <div class="intro-lead-in align-right"><strong>Let's chat about money...</strong></div>
+              <p id="Instructions"><strong>1) Set your Squad's goal</strong></p>
+              <p id="Instructions"><strong>2) Save as you spend</strong></p>
+              <p id="InstructionsLast"><strong>3) Boost your friends'savings by liking their good spends</strong></p>
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#stats">Find out more</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6" id="VideoDiv">
+            <div class="home-animation" id="home_animation_light">
+              <img alt="iPhone frame" class="animation-frame" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/home/phone_frame_light%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/home/phone_frame_light%402x.png" width="300" height="620">
+              <video autoplay="1" class="animation-video" id="home_animation_video_light" preload="1" width="300" height="550" loop>
+                <source src="demo6.mp4" >
+              </video>
+            </div>
+          </div>
+
         </div>
       </div>
     </header>
@@ -103,7 +118,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Our Mission</h2>
               <p class="text-muted">Our mission is to create a safe space for people to share and discuss the state of their finances.</p>
-              <p class="text-muted">In the same way that Facebook got us sharing our social lives, or that Airbnb and Uber got us comfortable sharing our space, we're going to get people talking about money.</p>
+              <p class="text-muted">In the same way that Facebook got us sharing our social lives, or that Airbnb and Uber got us comfortable sharing our space, we're going to get people sharing some of their spending.</p>
           </div>
         </div>
       </div>
@@ -118,7 +133,8 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Beta Testing</h2>
               <p class="text-muted">We're currently in our beta testing phase.</p>
-              <p class="text-muted">If you're saving towards something, need help spending less in a fun and engaging way or want to compete with your friends, sign up to the waiting list for our beta product below.</p>
+              <p class="text-muted">Are you saving up for a holiday, event tickets or rent with some friends? Or are you saving for your future Ferrari?</p>
+              <p class="text-muted">Either way, Squad is the product for you. Everything is easier and more fun with friends, and managing your money isn't an exception. So bin the bar charts and the excel sheets and join Squad for a uniquely effective saving experience.</p>
               <a id="prototypebutton2" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Join waitlist</a>
           </div>
         </div>
@@ -131,7 +147,6 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Our Team</h2>
-            <p class="text-muted">Between us, we have a diverse range of experience in finance as well as technological expertise.</h3>
           </div>
         </div>
         <div class="row">
@@ -225,7 +240,7 @@
       </a>
     </div>-->
 
-    <!-- Contact -->
+    <! Contact -->
     <section id="contact">
       <div class="container">
         <!-- Begin MailChimp Signup Form -->
@@ -286,7 +301,7 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='CONTACT';ftypes[3]='phone';fnames[4]='COMMENTS';ftypes[4]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-      </div>
+    </div>
     </section>
 
     <!-- Footer -->
