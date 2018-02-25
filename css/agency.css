@@ -235,9 +235,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 2px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 60px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -620,3 +621,23 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+#mc_embed_signup{
+  background-color: transparent;
+  clear:left;
+  font:16px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+ h2#Contacttitle {
+   font-weight: 700;
+   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 0;
+   margin-bottom: 15px;
+   color: white;
+ }
+
+ h6#contacttext{
+   text-align: center;
+ }
