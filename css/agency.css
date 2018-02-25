@@ -516,7 +516,7 @@ p#Instructions{
 p#InstructionsLast{
   color: white;
   text-align: left;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-left: 60px
 }
 
@@ -625,6 +625,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #mc_embed_signup{
   background-color: transparent;
   clear:left;
+  width: 100%
   font:16px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 
