@@ -176,7 +176,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  /*color: #fed136;*/
 }
 
 a#prototypebutton1{
@@ -234,11 +234,18 @@ header.masthead .intro-text {
   padding-bottom: 100px;
 }
 
+#firsttext {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
 header.masthead .intro-text .intro-lead-in {
   font-size: 70px;
   font-weight: bold;
   line-height: 70px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+    text-align: center;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -259,7 +266,8 @@ header.masthead .intro-text .intro-heading {
     font-size: 70px;
     font-weight: bold;
     line-height: 70px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    text-align: center;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
@@ -484,10 +492,29 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#stats {
-  background-color: white;
+  background-color: White;
+}
+
+p#intropara {
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+section#howitworks {
+  background-color: White;
 }
 
 section#mission {
+  background-color: #fafafa;
+}
+
+section#ourstory {
+  background-color: #fafafa;
+}
+
+section#Security {
   background-color: #fafafa;
 }
 
@@ -496,6 +523,10 @@ section#prototype {
 }
 
 section#team {
+  background-color: #fafafa;
+}
+
+section#why {
   background-color: #fafafa;
 }
 
@@ -508,16 +539,19 @@ a#prototypebutton2{
 
 p#Instructions{
   color: white;
-  text-align: left;
+  text-align: center;
   margin-bottom: 2px;
-  margin-left: 60px;
+  margin-left: 40px;
+  padding-right: -20px;
 }
 
 p#InstructionsLast{
   color: white;
-  text-align: left;
+  text-align: center;
+  margin-top: -30px
   margin-bottom: 40px;
-  margin-left: 60px
+  margin-left: 40px
+  padding-right: -20px; 
 }
 
 section#contact {
@@ -525,6 +559,7 @@ section#contact {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
 }
 
 section#contact .section-heading {
@@ -582,11 +617,13 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: black;
 }
 
 footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
+  font-size: 8px;
+  color: white;
+  line-height: 10px;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -619,7 +656,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  /* background-color: #fed136; */
 }
 
 #mc_embed_signup{
@@ -642,3 +679,79 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
  h6#contacttext{
    text-align: center;
  }
+
+
+ /* Slideshow container */
+ .slideshow-container {
+   position: relative;
+   background: transparent;
+   width: 78%;
+   padding-left: 400px;
+ }
+
+ /* Slides */
+ .mySlides {
+   display: none;
+   padding: 80px;
+   text-align: center;
+ }
+
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -30px;
+   padding: 16px;
+   color: #888;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+
+ /* Position the "next button" to the right */
+ .next {
+   position: absolute;
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+   color: white;
+ }
+
+ /* The dot/bullet/indicator container */
+ .dot-container {
+   text-align: center;
+   padding: 20px;
+   padding-left: 400px;
+   background: transparent;
+   width: 78%;
+ }
+
+ /* The dots/bullets/indicators */
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+
+ /* Add a background color to the active dot/circle */
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+
+ /* Add an italic font style to all quotes */
+ q {font-style: italic;}
+
+ /* Add a blue color to the author */
+ .author {color: cornflowerblue;}
