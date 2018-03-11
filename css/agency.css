@@ -31,9 +31,9 @@ img {
 
 .animation-video {
     height: 476px;
-    margin-left: -324px;
+    margin-left: -316.5px;
     position: relative;
-    top: 186px;
+    top: 185px;
     width: 340px;
     padding-bottom: 50px;
 
@@ -536,6 +536,10 @@ section#prototype {
 
 section#team {
   background-color: 			#F0F0F0;
+}
+
+section#faq {
+  background-color: 			White;
 }
 
 section#why {
