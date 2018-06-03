@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trial</title>
+  </head>
+  <body>
+    <h2>Test Page</h2>
+
+        <script>
+            var express = require('express')
+            var app = express()
+
+            // respond with "hello world" when a GET request is made to the homepage
+            app.get('/', function (req, res) {
+            res.send('hello world')
+            })              
+        </script>
+  </body>
+</html>
